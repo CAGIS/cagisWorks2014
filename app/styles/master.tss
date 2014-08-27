@@ -1,0 +1,8 @@
+"#master[platform=android]": {
+    exitOnClose: true
+}
+"#master": {
+	layout:"vertical"
+	
+}
+

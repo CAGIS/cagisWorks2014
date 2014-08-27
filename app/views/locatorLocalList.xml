@@ -1,0 +1,9 @@
+<Alloy>
+	<Window title="My Locations">
+		<TableView id="TV_LocationMRU" dataCollection="LocationMRU">
+			  <TableViewRow>
+			    <Label text="{DESCRIPTION}"/>
+			  </TableViewRow>
+		</TableView>		
+	</Window>
+</Alloy>

@@ -1,0 +1,21 @@
+"Window": {
+	backgroundColor: '#fff',
+	layout:"vertical"
+}
+
+"Window[platform=android]": {
+    navBarHidden: true
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: '18dp'
+	}		
+} 
+//header is a common class that is used for the topmost ui element to control for ios  status bar on top
+".header":{
+	top: Alloy.Globals.top
+}
